@@ -1,6 +1,6 @@
 # Site settings
 baseurl = "/"
-themesDir = "../.."
+themesDir = "./themes"
 languageCode = "en-us"
 title = "Cory McDonald"
 theme = "hugo-privacy-cactus-theme"
