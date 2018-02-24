@@ -42,3 +42,8 @@ theme = "hugo-privacy-cactus-theme"
 	instagram = "https://www.instagram.com/cory_.m"
 	lastfm-square = "https://www.last.fm/user/corymcdonald"
 	github-square = "https://www.github.com/corymcdonald"
+
+[[menu.main]]
+    name = "About"
+    identifier = "About"
+    url = "/about/"
