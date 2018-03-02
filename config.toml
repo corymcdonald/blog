@@ -4,6 +4,7 @@ themesDir = "./themes"
 languageCode = "en-us"
 title = "Cory McDonald"
 theme = "hugo-privacy-cactus-theme"
+enableRobotsTXT = true
 
 [params]
 	name = "Cory McDonald"
