@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/corymcdonald
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://corywmcdonald.com
+  * I am corymcdonald (https://keybase.io/corymcdonald) on keybase.
+  * I have a public key ASDqDzhIGUY6F1Yn1CaVUvDNfgjfQeKbmyA4Jwaq95OK_Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ea0f384819463a175627d4269552f0cd7e08df41e29b9b20382706aaf7938afc0a",
+      "host": "keybase.io",
+      "kid": "0120ea0f384819463a175627d4269552f0cd7e08df41e29b9b20382706aaf7938afc0a",
+      "uid": "78b5ced65b1ea59ded41fa08f334ed19",
+      "username": "corymcdonald"
+    },
+    "merkle_root": {
+      "ctime": 1522169285,
+      "hash": "d314ca5b1c970b5160efec1b11dbc8c8293bbda095adc7bb6a4ad55c24d9ab7fa86f482f4b21aa1a5839d5f2771b02e9ef03145f98fa8a3e4d4e7329f6cf1fc6",
+      "hash_meta": "d29e31d31d8c729b1ccdb8fdb9ef903b2f0595825504acbb48e46a04762e4ef2",
+      "seqno": 2295947
+    },
+    "service": {
+      "hostname": "corywmcdonald.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1522169304,
+  "expire_in": 504576000,
+  "prev": "d78579540c16c7c1445f33b1c3181f0a8000ed287c58abb32a6b1c4b5cbbfc10",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6g84SBlGOhdWJ9QmlVLwzX4I30Him5sgOCcGqveTivwKp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZWEwZjM4NDgxOTQ2M2ExNzU2MjdkNDI2OTU1MmYwY2Q3ZTA4ZGY0MWUyOWI5YjIwMzgyNzA2YWFmNzkzOGFmYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWEwZjM4NDgxOTQ2M2ExNzU2MjdkNDI2OTU1MmYwY2Q3ZTA4ZGY0MWUyOWI5YjIwMzgyNzA2YWFmNzkzOGFmYzBhIiwidWlkIjoiNzhiNWNlZDY1YjFlYTU5ZGVkNDFmYTA4ZjMzNGVkMTkiLCJ1c2VybmFtZSI6ImNvcnltY2RvbmFsZCJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMjE2OTI4NSwiaGFzaCI6ImQzMTRjYTViMWM5NzBiNTE2MGVmZWMxYjExZGJjOGM4MjkzYmJkYTA5NWFkYzdiYjZhNGFkNTVjMjRkOWFiN2ZhODZmNDgyZjRiMjFhYTFhNTgzOWQ1ZjI3NzFiMDJlOWVmMDMxNDVmOThmYThhM2U0ZDRlNzMyOWY2Y2YxZmM2IiwiaGFzaF9tZXRhIjoiZDI5ZTMxZDMxZDhjNzI5YjFjY2RiOGZkYjllZjkwM2IyZjA1OTU4MjU1MDRhY2JiNDhlNDZhMDQ3NjJlNGVmMiIsInNlcW5vIjoyMjk1OTQ3fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImNvcnl3bWNkb25hbGQuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDUifSwiY3RpbWUiOjE1MjIxNjkzMDQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiZDc4NTc5NTQwYzE2YzdjMTQ0NWYzM2IxYzMxODFmMGE4MDAwZWQyODdjNThhYmIzMmE2YjFjNGI1Y2JiZmMxMCIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEwed+QYcKAv7vLJv4CG0pj/3VV2Vrr7ZohZ+vk3YX2vhXAzopiBGWq3qN6SNYKw8mHWv10Jj4AAC1X4xid6Tweoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAlJMdeasoCaOAcmmNjaPXPv+uetGWytlVmKEm2IcmyxaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/corymcdonald
+
+==================================================================
