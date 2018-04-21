@@ -21,4 +21,4 @@ If you're on a large team or accepting a large amount of contributions ot your p
 
   After working Ruby on Rails and similar MVC frameworks it seems that most views end up mixing instance variables from mulitple different classes. With the edition that aren't explicitly defined.
 
-4.
+4. Demonstrate VS Code Git
