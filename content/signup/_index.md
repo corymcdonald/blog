@@ -1,6 +1,6 @@
 ---
 title: "sign up"
-description: "cory's crazy cool newsletter"
+description: "🤠's crazy cool newsletter"
 ---
 
 you gotta subscribe
