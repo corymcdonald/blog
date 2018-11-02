@@ -1,11 +1,11 @@
 ==================================================================
-https://keybase.io/🤠mcdonald
+https://keybase.io/corymcdonald
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of https://🤠wmcdonald.com
-  * I am 🤠mcdonald (https://keybase.io/🤠mcdonald) on keybase.
+  * I am an admin of https://corywmcdonald.com
+  * I am corymcdonald (https://keybase.io/corymcdonald) on keybase.
   * I have a public key ASDqDzhIGUY6F1Yn1CaVUvDNfgjfQeKbmyA4Jwaq95OK_Ao
 
 To do so, I am signing this object:
@@ -17,7 +17,7 @@ To do so, I am signing this object:
       "host": "keybase.io",
       "kid": "0120ea0f384819463a175627d4269552f0cd7e08df41e29b9b20382706aaf7938afc0a",
       "uid": "78b5ced65b1ea59ded41fa08f334ed19",
-      "username": "🤠mcdonald"
+      "username": "corymcdonald"
     },
     "merkle_root": {
       "ctime": 1522169285,
@@ -26,7 +26,7 @@ To do so, I am signing this object:
       "seqno": 2295947
     },
     "service": {
-      "hostname": "🤠wmcdonald.com",
+      "hostname": "corywmcdonald.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -50,6 +50,6 @@ hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6g84SBlGOhdWJ9QmlVLwzX4I30Him5sg
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/🤠mcdonald
+View my publicly-auditable identity here: https://keybase.io/corymcdonald
 
 ==================================================================

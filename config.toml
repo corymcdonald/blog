@@ -2,12 +2,12 @@
 baseurl = "/"
 themesDir = "./themes"
 languageCode = "en-us"
-title = "🤠 McDonald"
+title = "Cory McDonald"
 theme = "hugo-privacy-cactus-theme"
 enableRobotsTXT = true
 
 [params]
-	name = "🤠 McDonald"
+	name = "Cory McDonald"
 	description = "100% human now made with extra human sauce"
 	bio = "Developer"
 	enableRSS = true
@@ -38,11 +38,11 @@ enableRobotsTXT = true
     socialIconStyle = ""
 
 [social]
-	facebook-square = "https://www.facebook.com/🤠mcdonald"
-	twitter-square = "https://www.twitter.com/🤠wmcdonald"
-	instagram = "https://www.instagram.com/🤠_.m"
-	lastfm-square = "https://www.last.fm/user/🤠mcdonald"
-	github-square = "https://www.github.com/🤠mcdonald"
+	facebook-square = "https://www.facebook.com/corymcdonald"
+	twitter-square = "https://www.twitter.com/corywmcdonald"
+	instagram = "https://www.instagram.com/cory_.m"
+	lastfm-square = "https://www.last.fm/user/corymcdonald"
+	github-square = "https://www.github.com/corymcdonald"
 
 [[menu.main]]
     name = "About"
