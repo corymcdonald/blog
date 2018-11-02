@@ -2,12 +2,12 @@
 baseurl = "/"
 themesDir = "./themes"
 languageCode = "en-us"
-title = "Cory McDonald"
+title = "🤠 McDonald"
 theme = "hugo-privacy-cactus-theme"
 enableRobotsTXT = true
 
 [params]
-	name = "Cory McDonald"
+	name = "🤠 McDonald"
 	description = "100% human now made with extra human sauce"
 	bio = "Developer"
 	enableRSS = true
