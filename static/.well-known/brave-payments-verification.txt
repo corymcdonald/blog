@@ -1,0 +1,4 @@
+This is a Brave Payments publisher verification file.
+
+Domain: corywmcdonald.com
+Token: eedcdd94e8fe3ad1960aa977e070317b1af3b4f552476cec95b9dc2c9b13911e
