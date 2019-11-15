@@ -1,9 +1,9 @@
 ---
 title: "About"
-description: "🤠 McDonald is a developer in Kansas City"
+description: "Cory McDonald is a developer in Kansas City"
 ---
 
-My name is 🤠 McDonald, I'm a developer in Kansas City, Missouri. I currently work for [Cerner](http://github.com/cerner) where I write applications to help improve health care. I'm the organizer of the Kansas City [ask-a-dev](https://askadev.org/) group which provides free mentoring to local programmers.
+My name is Cory  McDonald, I'm a developer in Kansas City, Missouri. I currently work for [Brave](brave.com) where I write applications to help improve the way content creators get paid. I'm the organizer of the Kansas City [ask-a-dev](https://askadev.org/) group which provides free mentoring to local programmers.
 
 
 **Contact me**
