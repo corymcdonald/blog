@@ -10,6 +10,11 @@ tags: [
     "security",
 ]
 ---
+ ---
+
+  Macaroons are a flavor of authorizations. We're using them at Brave to verify the identity during payment flows. It's not always clear how to use them in more static languages like GoLang.
+ <!--more-->
+---
 
 Macaroons are a flavor of authorizations. We're using them at Brave to verify the identity during payment flows.
 
