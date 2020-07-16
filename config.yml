@@ -1,28 +1,21 @@
 baseURL: /
-theme: pure
+theme: "hugo-theme-codex"
 title: Cory McDonald
-defaultContentLanguage: en  # en/zh/...
-footnoteReturnLinkContents: ↩
-hasCJKLanguage: true
 paginate: 7
-enableEmoji: true
 googleAnalytics: ""      # UA-XXXXXXXX-X
 permalinks:
   posts: /:year/:month/:filename/
 
-taxonomies:
-    category : categories
-    tag : tags
-    series : series
-outputFormats:          # use for search. recommend not to modify
-  SearchIndex:
-    mediaType: "application/json"
-    baseName: "searchindex"
-    isPlainText: true
-    notAlternative: true
+markup:
+  markup.highlight:
+    codeFences: false
+
+  # Set to false to disallow raw HTML in markdown files
+  markup.goldmark.renderer:
+      unsafe: true
 
 outputs:
-    home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
+    home: ["HTML","RSS"]  # recommend not to modify
 # sitemap
 sitemap:
   changefreq: monthly
@@ -64,123 +57,7 @@ menu:
 
 params:
   since: 2017
-  dateFormatToUse: "2006-01-02"
-  enablePostCopyright: false
-  # Enable/Disable menu icons
-  menuIcons:
-    enable: true  # 是否启用导航菜单图标
-    home: icon-home-fill
-    archives: icon-archives-fill
-    categories: icon-folder
-    tags: icon-tags
-    repository: icon-project
-    books: icon-book-fill
-    links: icon-friendship
-    about: icon-cup-fill
-
-  # profile
-  profile:
-    enabled: true # Whether to show profile bar
-    avatar: avatar.png
-    gravatar: cory@corywmcdonald.com
-    author: Cory McDonald
-    author_title: Human
-    author_description: Human Being
-    location: KCMO
-    follow: https://twitter.com/corywmcdonald
-    # Social Links
-    social:
-      links:
-        github: https://github.com/corymcdonald
-        twitter: https://twitter.com/corywmcdonald
-        # weibo: http://weibo.com/{yourid}
-        # twitter: https://twitter.com/
-        # facebook: /
-        rss: /index.xml
-      link_tooltip: false # enable the social link tooltip, options: true, false
-  # Site
-  site:
-    logo:
-      enabled: true
-      width: 40
-      height: 40
-      url: favicon.ico
-    title: Cory McDonald
-    favicon: favicon.ico
-    board: <p>enjoy</p> # 公告牌
-
-  # Share
-  # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
-  share:
-    enable: true
-    sites: twitter
-    mobile_sites: twitter
-
-  # Comment
-  comment:
-    type:  # type disqus/gitalk/valine 启用哪种评论系统
-    disqus: your_disqus_name # enter disqus shortname here
-    gitalk: # gitalk. https://gitalk.github.io/
-      owner: #必须. GitHub repository 所有者，可以是个人或者组织。
-      admin: #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-      repo:  #必须. GitHub repository.
-      ClientID: #必须. GitHub Application Client ID.
-      ClientSecret: #必须. GitHub Application Client Secret.
-    valine: # Valine. https://valine.js.org
-      appid: # your leancloud application appid
-      appkey: # your leancloud application appkey
-      notify: # mail notifier , https://github.com/xCss/Valine/wiki
-      verify: # Verification code
-      placeholder: enjoy~ # comment box placeholder
-      avatar: mm # gravatar style
-      meta: nick,mail # custom comment header
-      pageSize: 10 # pagination size
-      visitor: false # Article reading statistic https://valine.js.org/visitor.html
-
-  # Donate
-  donate:
-    enable: false
-    # 微信打赏
-    wechatpay:
-      qrcode: donate/wechatpayimg.png
-      title: 微信支付
-    # 支付宝打赏
-    alipay:
-      qrcode: donate/alipayimg.png
-      title: 支付宝
-
-  # PV
-  pv:
-    busuanzi:
-      enable: false # 不蒜子统计
-    leancloud:
-      enable: false # leancloud统计
-      app_id: # leancloud <AppID>
-      app_key: # leancloud <AppKey>
-
-  # wordcount
-  postCount:
-    enable: true
-    wordcount: true # 文章字数统计
-    min2read: false # read time 阅读时长预计
-
-  # config
-  config:
-    skin: theme-purple # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
-    layout: main-center # 布局方式 main-left main-center main-right
-    excerpt_link: Read More
-    toc: true
-
-  # Sidebar
-  sidebar: right
-
-  # Search
-  search:
-    enable: true # enable search. thanks for https://raw.githubusercontent.com/ppoffice/hexo-theme-icarus/master/source/js/insight.js
-
-  # Sidebar only the following widgets. you can remove any you don't like it.
-  widgets:
-    - category
-    - tag
-    - recent_posts
-
+  dateFormatToUse: "Jan 2 2006"
+  iconTitles: ["Twitter", "GitHub"]
+  github: https://github.com/corymcdonald
+  twitter: https://twitter.com/corywmcdonald

@@ -12,11 +12,6 @@ tags: [
 ]
 ---
 
-  Sidekiq Configuration can be a pain to validate. This walks through how to create unit tests for sidekiq configurations.
- 
- <!--more-->
----
-
 ## Ensure your Sidekiq configuration is correct
 
 Often times during a refactor there can be things missed. That's one of the reasons why we write unit tests. Unfortunately I ran into the exact situation where I'm describing, I [renamed one of job's modules](https://github.com/brave-intl/publishers/pull/2761) from `Channel` to `Channels` but I forgot to update the `sidekiq.yml` file. 🤦‍♂️

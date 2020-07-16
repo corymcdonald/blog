@@ -10,13 +10,8 @@ tags: [
     "security",
 ]
 ---
- ---
 
-  Macaroons are a flavor of authorizations. We're using them at Brave to verify the identity during payment flows. It's not always clear how to use them in more static languages like GoLang.
- <!--more-->
----
-
-Macaroons are a flavor of authorizations. We're using them at Brave to verify the identity during payment flows.
+Macaroons are a flavor of authorizations. We're using them at Brave to verify the identity during payment flows. It's not always clear from the documentation how to use them in more static languages like GoLang.
 
 In Ruby reading macaroons is very straight forward with the help of [this blog post](http://tech.tmh.io/concept/2016/06/07/macaroons-a-new-flavor-for-authorization.html). However in Go it's a little more challenging.
 
@@ -36,7 +31,7 @@ macaroon.add_first_party_caveat('currency = USD')
 macaroon.add_first_party_caveat('id = 775e1c2d-f41d-4236-9cb8-6baea355cfe6')
 ```
 
-We can generated the macaroon pretty easily in Ruby. But if we want to do this in Go it's a little more complex. 
+We can generated the macaroon pretty easily in Ruby. But if we want to do this in Go it's a little more complex.
 
 That's why we at Brave wrote this [macaroon-cli tool](https://github.com/brave-intl/bat-go/tree/master/bin/macaroon-gen). This helps you generate valid tokens off of YAML files.
 
@@ -103,7 +98,7 @@ func CheckCaveat(caveat string) error {
 }
 ```
 
-With the above code we've validated the macaroon token and have functions to validate the caveats are the expected values. 
+With the above code we've validated the macaroon token and have functions to validate the caveats are the expected values.
 
 A good blog post with better validation functions is [API Input Validation in Golang](https://husobee.github.io/golang/validation/2016/01/08/input-validation.html). This walks through adding validation methods for all the structs that we could be using.
 

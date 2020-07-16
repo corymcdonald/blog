@@ -12,10 +12,6 @@ tags: [
 ]
 ---
 
-Sometimes you need to store data in a cache but it's too large for the cache store. An alternative to spending a lot and upgrading the cache store is database caching. We'll walk through how to do that in an easy to understand way.
-<!--more-->
----
-
 There's quite a few different ways to cache with Rails, and a [lot of information about it](https://guides.rubyonrails.org/caching_with_rails.html) in the guides.
 
 Ideally when you cache it's shared across multiple instances and across many threads. That's where Redis or Cassandra comes in, but what happens when the data you want to place in the cache store is too large?
