@@ -6,12 +6,12 @@ googleAnalytics: ""      # UA-XXXXXXXX-X
 permalinks:
   posts: /:year/:month/:filename/
 
+
 markup:
   markup.highlight:
     codeFences: false
-
-  # Set to false to disallow raw HTML in markdown files
-  markup.goldmark.renderer:
+  goldmark:
+    renderer:
       unsafe: true
 
 outputs:
