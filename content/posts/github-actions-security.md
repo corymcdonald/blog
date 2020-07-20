@@ -1,5 +1,5 @@
 ---
-title: "Github Actions Security"
+title: "Security Recommendations For Github Actions"
 date: 2020-07-20T12:50:44-05:00
 draft: false
 categories: [
@@ -9,8 +9,6 @@ tags: [
     "security",
 ]
 ---
-
-# Security recommendations for using Github Actions
 
 I recently moved our continuous integration (CI) tests from Travis-CI to Github Actions for [Brave's](http://brave.com/) [Publisher application](https://github.com/brave-intl/publishers). When [working on the migration](https://github.com/brave-intl/publishers/pull/2784) I found there was a lot of 3rd party actions that you can integrate into your workflows. However that raises the question: Are they secure?
 
