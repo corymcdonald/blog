@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://corywmcdonald.com/
 theme: "hugo-theme-codex"
 title: Cory McDonald
 paginate: 7
