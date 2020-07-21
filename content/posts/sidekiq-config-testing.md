@@ -12,8 +12,6 @@ tags: [
 ]
 ---
 
-## Ensure your Sidekiq configuration is correct
-
 Often times during a refactor there can be things missed. That's one of the reasons why we write unit tests. Unfortunately I ran into the exact situation where I'm describing, I [renamed one of job's modules](https://github.com/brave-intl/publishers/pull/2761) from `Channel` to `Channels` but I forgot to update the `sidekiq.yml` file. 🤦‍♂️
 
 The worst part was finding this much later and only after users were complaining about the job not working.
